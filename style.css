@@ -1,0 +1,340 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#site{
+    background-image: url(./IN-en-20230807-popsignuptwoweeks-perspective_alpha_website_medium\ \(1\).jpg);
+    z-index: -1;
+    height: 100vh;
+}
+#outer{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+#navbar{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+#navbar>img{
+    height: 55px;
+    width: auto;
+    align-self: center;
+    justify-self: flex-start;
+    padding-right: 200px;
+}
+#right{
+ display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  gap: 15px!important;
+  padding-left: 50px;
+}
+#lang{
+    border: 1px whitesmoke;
+    background-color: transparent;
+    color: transparent;
+    padding: 7px;
+    border-radius: 5px;
+}
+#lang>select>option{
+    font-size: 1rem;
+}
+#signin{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 80px;
+    border-radius: 5px;
+    border: 5px red;
+    color: whitesmoke;
+    background-color: red;
+}
+#hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    gap: 15px;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+#hero>p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+select{
+background-color: transparent;
+border: transparent;
+color: whitesmoke;
+}
+#lang{
+    border: 1px solid grey;
+    padding: 7px;
+    width: 100px;
+}
+#credentials>input{
+font-size: 1rem;
+font-weight: bold;
+width: 376px;
+padding:15px;
+border-radius: 5px;
+color: grey;
+background-color: transparent;
+border: 2px solid grey;
+}
+#Getting-started-button{
+    background-color: red;
+    color: white;
+   border: transparent;
+   font-size: 1.2rem;
+   width: 150px;
+   padding: 14px;
+   border-radius: 5px;
+}
+/* 2nd page */
+#page2{
+    background-color: black;
+    height: 80vh;
+    color: whitesmoke;
+    margin-top: 10px;
+}
+#content{
+    display:flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+#headingss{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    justify-content: center;
+    align-items: start;
+    height: 60vh;
+    width: 500px;
+    text-align: start;
+}
+#main-heading{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+#subheading2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 350;
+    font-size: 1.5rem;
+}
+#image1>img{
+    width: auto;
+    height: 60vh;
+}
+
+
+#page3{
+        background-color: black;
+        height: 80vh;
+        color: whitesmoke;
+       margin-top: 10px;   
+}
+#content3{
+    display:flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+#headingss3{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    justify-content: center;
+    align-items: start;
+    height: 60vh;
+    width: 500px;
+    text-align: start;
+}
+#main-heading3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+#subheading3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 350;
+    font-size: 1.5rem;
+}
+#image3>img{
+    padding-top: 20px;
+    width: auto;
+    height: 55vh;
+}
+#download{
+    position: absolute;
+    top: 240px;
+    left: 20%;
+    border: 3px solid rgb(131, 129, 129);
+    border-radius: 7px;
+    width: 280px;
+    height: 85px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    background-color: black;
+}
+#download>img{
+    align-self: baseline;
+    width: 65px;
+    height: 70px;
+    object-fit: contain;
+    margin-top: 7px;
+}
+#down{
+    align-self: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+
+}
+
+
+#page4{
+    background-color: black;
+    height: 80vh;
+    color: whitesmoke;
+   margin-top: 10px;   
+}
+#content4{
+display:flex;
+gap: 15px;
+justify-content: center;
+align-items: center;
+}
+#headingss4{
+display: flex;
+flex-direction: column;
+gap: 13px;
+justify-content: center;
+align-items: start;
+height: 60vh;
+width: 500px;
+text-align: start;
+}
+#main-heading4{
+font-family: 'Roboto', sans-serif;
+font-weight: bolder;
+font-size: 3rem;
+}
+#subheading4{
+font-family: 'Roboto', sans-serif;
+font-weight: 350;
+font-size: 1.5rem;
+}
+#image4>img{
+padding-top: 50px;
+align-self: center;
+width: auto;
+height: 60vh;
+}
+
+
+#page5{
+    background-color: black;
+    height: 80vh;
+    color: whitesmoke;
+   margin-top: 10px;   
+}
+#content5{
+display:flex;
+gap: 15px;
+justify-content: center;
+align-items: center;
+}
+#headingss5{
+display: flex;
+flex-direction: column;
+gap: 13px;
+justify-content: center;
+align-items: start;
+height: 60vh;
+width: 500px;
+text-align: start;
+}
+#main-heading5{
+font-family: 'Roboto', sans-serif;
+font-weight: bolder;
+font-size: 3rem;
+}
+#subheading5{
+font-family: 'Roboto', sans-serif;
+font-weight: 350;
+font-size: 1.5rem;
+}
+#image5>img{
+padding-top: 50px;
+align-self: center;
+width: auto;
+height: 60vh;
+}
+
+
+@media(max-width: 1300px){
+    #navbar{
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 5px;
+    }
+    #navbar>img{
+        height: 55px;
+        width: auto;
+        align-self: center;
+        
+    }
+    #lang{
+        border: 1px whitesmoke;
+        background-color: transparent;
+        color: transparent;
+        padding: 5.5px;
+        border-radius: 5px;
+    }
+    #lang>select>option{
+        font-size: 0.85rem;
+    }
+    #signin{
+        padding-top: 7px;
+        padding-bottom: 7px;
+        width: 75px;
+        border-radius: 5px;
+        border: 5px red;
+        color: whitesmoke;
+        background-color: red;
+    }
+}
+@media(max-widht: 800px){
+    
+}
+     /* } */
+    /* h1{
+        font-family: 'Roboto', sans-serif;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    #hero>p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+    }
+    h3{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        font-weight: 450;
+    }
+     */
